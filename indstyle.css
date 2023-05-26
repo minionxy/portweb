@@ -1,0 +1,239 @@
+#navigation{
+    display: flex;
+    justify-content: left;
+    background-color: darkgray;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+#navigation a{
+    position: relative;
+    display: inline-block;
+    padding: 0.80% 0.80%;
+    color: yellow;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: calibri;
+}
+#foot{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: slategrey;
+    padding: 0.50%;
+    text-align: center;
+    font-size: 0.82rem;
+    letter-spacing: 1.5px;
+}
+#msg h3{
+    font-size: 2.5rem;
+    margin-top: 0;
+    font-family: candara;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg,tomato,yellow);
+    font-family: Arial, sans-serif;
+    color: black;
+    overflow-x: hidden;
+}
+.mheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.mheader h1{
+    font-size: 56px;
+    margin: 0;
+    color:navy;
+    font-family: Lucida Sans;
+    margin-top: 2%;
+}
+.mheader h2{
+    color: cyan;
+    font-size: 40px;
+    margin-bottom: 15%;
+    font-family: chillax;
+}
+#profile img{
+    display: block;
+    margin-left: 40%;
+    margin-top: -20%;
+    padding: 1px;
+    width: 15%;
+    border: 4px dotted black;
+    border-radius: 40%;
+}
+
+#aboutme h2{
+    background-color: antiquewhite;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 6%;
+    text-align: center;
+    padding: 3px;
+    color: green;
+}
+#aboutme p{
+    font-family: onyx;
+    text-align: center;
+    color: indigo;
+    margin: -2% 8%;
+    margin-bottom: 6%;
+    font-size: 42px;
+    font-weight: bold;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60%;
+}
+button{
+    background-color: darkgreen;
+    font-family: 'Cascadia Mono SemiBold', monospace;
+    border: none;
+    color: rgb(242, 241, 235);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: greenyellow;
+}
+button:active{
+    background-color: red;
+}
+#skillhd h2{
+    background-color: antiquewhite;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 4%;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    color: green;
+}
+.skills{
+    font-family: Geneva;
+    display: flex;
+    flex-wrap: wrap;
+    margin 1% 20%;
+    text-align: center;
+}
+.skill{
+    flex: 1 0 25%;
+    margin: 2%;
+    background-color:teal ;
+    padding: 1.5%;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+.skill h3{
+    color: orangered;
+    font-family: Cascadia Mono SemiBold;
+}
+.skill p{
+    color:pink
+}
+.skill:hover{
+    transform: scale(1.08);
+    background-color: black;
+}
+.skill:hover h3{
+    color:aquamarine;
+}
+.skill:hover p{
+    color: coral;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+section h3{
+    background-color: antiquewhite;
+    color: green;
+    width: 100%;
+    padding: 0.5%;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+}
+label{
+    display: flex;
+    align-items: center;
+    width: 24%;
+    text-align: center;
+}
+input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    max-width: 25%;
+    padding: 0.70%;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+button[type="submit"]{
+    background-color: darkgreen;
+    color: rgb(242, 241, 235);
+    padding: 0.2% 0.5%;
+    font-size: 19px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1%;
+    margin-left: 10%;
+}
+button[type="submit"]:hover{
+    background-color: green;
+}
+button[type="reset"]{
+    background-color: navy;
+    color: white;
+    padding: 0.2% 0.5%;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: -2.95%;
+    margin-left: 20%;
+}
+button[type="reset"]:hover{
+    background-color: blue;
+}
+input:hover,
+    textarea:hover{
+        background-color: #FFFFFF;
+    }
+    input:foucs,
+    textarea:focus{
+        background-color: #FFFFFF;
+    }
+
